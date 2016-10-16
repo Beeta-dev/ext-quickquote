@@ -1,0 +1,29 @@
+{
+    "name": "beeta-dev/ext-quickquote",
+    "description": "Beeta Quick Quote",
+    "type": "flarum-extension",
+    "authors": [{
+        "name": "blurkness",
+        "email": "blurkness@gmail.com"
+    }],
+    "require": {
+        "flarum/core": "^0.1.0-beta.4"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Beeta Quick Quote",
+            "icon": {
+                "name": "quote-left",
+                "backgroundColor": "#14191F", 
+                "color": "#E7712E"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Beeta\\Quick\\Quote\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable" : true
+}
