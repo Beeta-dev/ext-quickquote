@@ -36,7 +36,7 @@ export default class QuickQuote extends Component {
         } else {
             newContent = newContent;
         }
-        app.composer.minimize();
+        //app.composer.minimize();
         e.stopPropagation();
         textarea.val(newContent).trigger('input');
         var pos = newContent.length;

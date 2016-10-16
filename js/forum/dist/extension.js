@@ -52,7 +52,7 @@ System.register('beeta-dev/ext-quickquote/components/QuickQuote', ['flarum/Compo
                         } else {
                             newContent = newContent;
                         }
-                        app.composer.minimize();
+                        //app.composer.minimize();
                         e.stopPropagation();
                         textarea.val(newContent).trigger('input');
                         var pos = newContent.length;
